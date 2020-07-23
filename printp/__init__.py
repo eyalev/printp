@@ -1,5 +1,5 @@
 
-from .printp import printp
+from .printp import printp, pp
 
-__all__ = ['printp']
+__all__ = ['printp', 'pp']
 

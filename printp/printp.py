@@ -9,7 +9,10 @@ def printp(arg):
         print_dict(arg)
 
     else:
-        raise NotImplementedError
+        print(arg)
 
     return True
 
+
+def pp(arg):
+    return printp(arg)
